@@ -4,7 +4,7 @@
 #include <windows.h>
 #include <tlhelp32.h>
 
-// Windows processes are always multiples of 4, so we set INVALID_PROCESS_ID to 3
+// Windows processes identifiers are always multiples of 4, so we set INVALID_PROCESS_ID to 3
 #define INVALID_PROCESS_ID 3
 
 #define PROCESS_STATE_SUSPEND 0
